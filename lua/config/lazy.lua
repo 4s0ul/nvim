@@ -33,10 +33,10 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
 vim.keymap.set("v", "<leader>r", "\"hy:%s/<C-r>h//g<left><left>")
-vim.keymap.set("n", "<leader>w", "<C-w>")
-vim.keymap.set("n", "<leader>bp", ":bprev<CR>")
-vim.keymap.set("n", "<leader>bn", ":bnext<CR>")
-vim.keymap.set("n", "<leader>bd", ":bd<CR>")
+vim.keymap.set("n", "<leader>h", "<C-w>h")
+vim.keymap.set("n", "<leader>j", "<C-w>j")
+vim.keymap.set("n", "<leader>k", "<C-w>k")
+vim.keymap.set("n", "<leader>l", "<C-w>l")
 
 -- Setup lazy.nvim
 require("lazy").setup({
